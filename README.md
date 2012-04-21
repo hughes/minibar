@@ -48,8 +48,8 @@ Other fun styles
     m = MiniBar(lambda: i, fill='/', empty='|') # dominoes
     [///////////////////////|||||||||||||||||||||||||||] 45%
 
-    m = MiniBar(lambda: i, fill='~', empty=' ', cursor='✈') # airplane
+    m = MiniBar(lambda: i, fill='~', cursor='✈') # airplane
     [~~~~~~~~~~~~~~~~~~~~~~✈                           ] 45%
 
-    m = MiniBar(lambda: i, fill=' ', empty=' ', cursor='o') # rolling ball
+    m = MiniBar(lambda: i, fill=' ', cursor='o') # rolling ball
     [                      o                           ] 45%
