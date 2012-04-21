@@ -6,7 +6,7 @@ A tiny, easy to use progress bar class written in Python.
 Basic Usage
 -----------
 
-The only required parameter is a function that returns a value in [0 .. 1], which represents the filled ratio of the progres bar.
+The only required parameter is a function that returns a value in [0 .. 1], which represents the filled ratio of the progress bar.
 
     from minibar import MiniBar
     from time import sleep
