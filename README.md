@@ -13,11 +13,11 @@ The only required parameter is a function that returns a value in [0 .. 1], whic
 
     m = MiniBar(lambda: i/100.0)
 
-    for i in range(100):
+    for i in range(101):
         m.draw()
         sleep(0.05)
 
-    m.finish()
+    m.end()
 
 Example output:
 
@@ -48,11 +48,11 @@ By default, the width of the progress bar (not including the borders) is 50 char
 
     m = MiniBar(update=myUpdateFunc, title="Processing", width=60, min=40, max=120, fill='+', empty='.', cursor='>', percent=False)
 
-    for i in range(40, 120):
+    for i in range(40, 121):
         m.draw()
         sleep(0.05)
 
-    m.finish()
+    m.end()
 
 Example output:
 
