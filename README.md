@@ -50,3 +50,6 @@ Other fun styles
 
     m = MiniBar(lambda: i, fill='~', empty=' ', cursor='✈') # airplane
     [~~~~~~~~~~~~~~~~~~~~~~✈                           ] 45%
+
+    m = MiniBar(lambda: i, fill=' ', empty=' ', cursor='o') # rolling ball
+    [                      o                           ] 45%
