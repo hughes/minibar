@@ -16,7 +16,7 @@ class MiniBar:
             self.width = self.width - 1
 
     def draw(self):
-        percent = max(min((self.update() - self.min) * 1.0 / self.max, 1), 0)
+        percent = max(min((self.update() - self.min) * 1.0 / (self.max-self.min), 1), 0)
 
         num_filled = int(round(percent * self.width))
         num_empty = self.width - num_filled
