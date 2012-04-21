@@ -39,6 +39,7 @@ Advanced Usage
     m.finish()
 
 Example output:
+
     Processing: [++++++++++++>...............................................]
 
 Other fun styles
